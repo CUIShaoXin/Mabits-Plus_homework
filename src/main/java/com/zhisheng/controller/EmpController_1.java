@@ -1,19 +1,18 @@
-package com.controller;
+package com.zhisheng.controller;
 
-import com.entity.Emp;
-import com.service.EmpService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.zhisheng.entity.Emp;
+import com.zhisheng.service.EmpService;
 import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 
-@RestController
+//@RestController
 @RequestMapping("/emps")
-public class EmpController {
+public class EmpController_1 {
 
-    @Autowired
+    //@Autowired
     private EmpService empService;
 
     /**

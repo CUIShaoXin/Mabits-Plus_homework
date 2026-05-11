@@ -1,7 +1,7 @@
-package com.service;
+package com.zhisheng.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.entity.Emp;
+import com.zhisheng.entity.Emp;
 
 public interface EmpService extends IService<Emp> {
 }

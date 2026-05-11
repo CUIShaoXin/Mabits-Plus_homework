@@ -1,9 +1,9 @@
-package com.service.impl;
+package com.zhisheng.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.entity.Emp;
-import com.mapper.EmpMapper;
-import com.service.EmpService;
+import com.zhisheng.entity.Emp;
+import com.zhisheng.mapper.EmpMapper;
+import com.zhisheng.service.EmpService;
 import org.springframework.stereotype.Service;
 
 @Service

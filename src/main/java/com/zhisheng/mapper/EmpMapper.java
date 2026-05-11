@@ -1,7 +1,7 @@
-package com.mapper;
+package com.zhisheng.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.entity.Emp;
+import com.zhisheng.entity.Emp;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
