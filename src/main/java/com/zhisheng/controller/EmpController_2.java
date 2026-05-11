@@ -10,11 +10,11 @@ import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
 
-@RestController
-@RequestMapping("/emps")
-public class EmpController {
+//@RestController
+//@RequestMapping("/emps")
+public class EmpController_2 {
 
-    @Autowired
+    //@Autowired
     private EmpService empService;
 
     /**
